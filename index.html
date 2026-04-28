@@ -1,0 +1,272 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MindAI — Saúde Mental Preventiva</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- NAV -->
+  <nav>
+    <div class="logo">
+      <div class="logo-dot"></div>
+      MindAI
+    </div>
+    <button class="nav-cta" onclick="document.getElementById('cta').scrollIntoView({behavior:'smooth'})">
+      Quero acesso antecipado
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <span class="hero-badge">
+      <span class="badge-dot"></span>
+      Saúde Mental Preventiva com IA
+    </span>
+
+    <h1>
+      Sua mente merece<br/>
+      <span class="highlight">monitoramento inteligente</span>
+    </h1>
+
+    <p>
+      Para universitários e profissionais que convivem com ansiedade e estresse,
+      nossa IA detecta padrões emocionais antes que virem crises —
+      de forma passiva, discreta e personalizada.
+    </p>
+
+    <div class="hero-actions">
+      <button class="btn-primary" onclick="document.getElementById('cta').scrollIntoView({behavior:'smooth'})">
+        Garantir acesso gratuito
+      </button>
+      <button class="btn-ghost" onclick="document.getElementById('como-funciona').scrollIntoView({behavior:'smooth'})">
+        Ver como funciona →
+      </button>
+    </div>
+
+    <div class="scroll-hint">
+      <div class="scroll-line"></div>
+      scroll
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div class="stats-bar reveal">
+    <div class="stat-item">
+      <div class="stat-number">+30%</div>
+      <div class="stat-label">dos jovens adultos relatam ansiedade (OMS)</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number">#1</div>
+      <div class="stat-label">Brasil lidera ansiedade na América Latina</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number">66%</div>
+      <div class="stat-label">nunca buscaram ajuda profissional</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number">80%</div>
+      <div class="stat-label">relatam ansiedade frequente em pesquisa</div>
+    </div>
+  </div>
+
+  <!-- PROBLEMA -->
+  <section>
+    <div class="section-inner">
+      <div class="problem-grid">
+        <div>
+          <div class="section-tag reveal">O Problema</div>
+          <h2 class="section-title reveal">Ansiedade silenciosa que ninguém monitora</h2>
+          <p class="section-subtitle reveal">
+            A sobrecarga digital, pressão acadêmica e o ritmo acelerado criaram
+            uma crise de saúde mental silenciosa. As barreiras são reais: custo,
+            tempo e estigma.
+          </p>
+
+          <ul class="problem-list" style="margin-top: 2rem;">
+            <li class="problem-item reveal">
+              <div class="problem-icon">😮‍💨</div>
+              <div class="problem-text">
+                <strong>Queda de produtividade</strong>
+                <span>Ansiedade afeta diretamente foco e rendimento diário</span>
+              </div>
+            </li>
+            <li class="problem-item reveal">
+              <div class="problem-icon">😴</div>
+              <div class="problem-text">
+                <strong>Insônia e fadiga crônica</strong>
+                <span>Mente sobrecarregada não descansa — o ciclo se repete</span>
+              </div>
+            </li>
+            <li class="problem-item reveal">
+              <div class="problem-icon">🔒</div>
+              <div class="problem-text">
+                <strong>Barreira de acesso à terapia</strong>
+                <span>Custo, espera e estigma impedem quem mais precisa de ajuda</span>
+              </div>
+            </li>
+            <li class="problem-item reveal">
+              <div class="problem-icon">📱</div>
+              <div class="problem-text">
+                <strong>Excesso de tecnologia sem controle</strong>
+                <span>Redes sociais amplificam ansiedade sem nenhum filtro emocional</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="reveal">
+          <div class="data-card">
+            <div style="font-family:'Syne',sans-serif;font-weight:700;font-size:1.1rem;margin-bottom:1.5rem;">
+              📊 Dados da nossa pesquisa
+            </div>
+
+            <div class="data-row">
+              <span class="data-label">Universitários com ansiedade frequente</span>
+              <span class="data-value">80%</span>
+            </div>
+            <div class="progress-bar"><div class="progress-fill" data-width="80"></div></div>
+
+            <div class="data-row" style="margin-top:1rem;">
+              <span class="data-label">Que nunca buscaram ajuda profissional</span>
+              <span class="data-value">66%</span>
+            </div>
+            <div class="progress-bar"><div class="progress-fill" data-width="66"></div></div>
+
+            <div class="data-row" style="margin-top:1rem;">
+              <span class="data-label">Dispostos a usar app de IA para saúde mental</span>
+              <span class="data-value">70%</span>
+            </div>
+            <div class="progress-bar"><div class="progress-fill" data-width="70"></div></div>
+
+            <div style="margin-top:2rem;padding-top:1.5rem;border-top:1px solid var(--border);font-size:0.78rem;color:var(--muted);">
+              Baseado em entrevistas com 15 universitários e protótipo testado com usuários reais.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAIS -->
+  <section id="como-funciona" class="features-bg">
+    <div class="section-inner">
+      <div style="text-align:center;max-width:620px;margin:0 auto;">
+        <div class="section-tag reveal">Como funciona</div>
+        <h2 class="section-title reveal">Prevenção inteligente, sem esforço</h2>
+        <p class="section-subtitle reveal" style="margin:0 auto;">
+          Nossa IA monitora seu estado emocional de forma passiva e discreta —
+          integrada ao seu smartphone e wearable, sem interromper sua rotina.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card reveal">
+          <div class="feature-icon">🤖</div>
+          <h3>IA Preditiva</h3>
+          <p>Algoritmos que aprendem seus padrões emocionais e identificam sinais de alerta antes das crises se instalarem.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">🌙</div>
+          <h3>Monitoramento passivo</h3>
+          <p>Funciona em segundo plano sem exigir ação do usuário. Sem formulários, sem diários, sem esforço consciente.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">⚡</div>
+          <h3>Feedback em tempo real</h3>
+          <p>Alertas personalizados e sugestões de intervenção no momento exato em que você mais precisa deles.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">⌚</div>
+          <h3>Integração total</h3>
+          <p>Conecta-se ao seu smartphone e wearable para coletar dados de comportamento digital e sinais fisiológicos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTADOS -->
+  <section>
+    <div class="section-inner">
+      <div style="text-align:center;max-width:620px;margin:0 auto;">
+        <div class="section-tag reveal">Experimentos e Validação</div>
+        <h2 class="section-title reveal">Hipóteses testadas. Resultados reais.</h2>
+        <p class="section-subtitle reveal" style="margin:0 auto;">
+          Rodamos três experimentos para validar cada hipótese antes de construir o produto.
+        </p>
+      </div>
+
+      <div class="results-grid">
+        <div class="result-card reveal">
+          <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);margin-bottom:0.8rem;">Experimento 1 — Entrevistas</div>
+          <div class="result-num">80<span class="result-unit">%</span></div>
+          <div class="result-label">dos universitários entrevistados relataram ansiedade frequente</div>
+          <span class="result-badge badge-validated">✓ Hipótese validada</span>
+        </div>
+
+        <div class="result-card reveal">
+          <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);margin-bottom:0.8rem;">Experimento 2 — Landing Page</div>
+          <div class="result-num">8,2<span class="result-unit">%</span></div>
+          <div class="result-label">de taxa de conversão no CTA (meta era acima de 5%)</div>
+          <span class="result-badge badge-validated">✓ Hipótese validada</span>
+        </div>
+
+        <div class="result-card reveal">
+          <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);margin-bottom:0.8rem;">Experimento 3 — Protótipo</div>
+          <div class="result-num">85<span class="result-unit">%</span></div>
+          <div class="result-label">concluíram tarefas sem ajuda; 70% usariam o app diariamente</div>
+          <span class="result-badge badge-partial">⚡ Validada parcialmente</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section id="cta" class="cta-section features-bg">
+    <div class="cta-box">
+      <div class="section-tag reveal" style="display:inline-block;">Acesso antecipado</div>
+      <h2 class="reveal">Seja o primeiro a cuidar da sua mente com IA</h2>
+      <p class="reveal">
+        Cadastre seu e-mail e garanta acesso gratuito à versão beta do MindAI.
+        Sem spam. Cancele quando quiser.
+      </p>
+
+      <div class="form-row reveal">
+        <input
+          type="email"
+          id="emailInput"
+          class="email-input"
+          placeholder="seu@email.com"
+        />
+        <button class="btn-primary" onclick="handleSubmit()">
+          Quero acesso
+        </button>
+      </div>
+
+      <div class="confirm-msg" id="confirmMsg">
+        <span>✅</span>
+        <span>Ótimo! Você está na lista. Em breve entraremos em contato.</span>
+      </div>
+
+      <p style="margin-top:1.5rem;font-size:0.78rem;color:var(--muted);">
+        🔒 Seus dados são protegidos e nunca compartilhados. Privacidade é nossa prioridade.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">MindAI</div>
+    <div>Projeto acadêmico — UNIPAR · Leandro & Matheus</div>
+    <div>Saúde Mental Preventiva com IA</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
